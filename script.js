@@ -1,5 +1,5 @@
 function addToTheDictionary() {
-    let cntainer = document.querySelector("#wordsEntered");
+    let container = document.querySelector("#wordsEntered");
     let createWord = document.createElement("p");
     let text = document.querySelector("#inputSave").value;
     let pText = document.createTextNode(text);
